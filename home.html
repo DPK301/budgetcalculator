@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="./script.js"></script> 
+</head>
+<body >
+  <nav class="navbar bg-body-tertiary shadow">
+    <div class="container-fluid">
+      <a style="font-size: 47px;" class="navbar-brand" href="#"><b>ERNMARK</b></a>
+    </div>
+  </nav>
+  <nav class="navbar bg-body-tertiary shadow">
+    <div class="container-fluid">
+      <a  class="navbar-brand" href="#">Budget Calculator</a>
+    </div>
+  </nav>
+     <div class="row mx-auto mt-5">
+      <div class="col"> <div style="width: 700px;" class="
+        mb-5">
+  
+          <div style="text-align: center;" class="p-3 ">
+            <h5 class="bg-primary">INCOME (AFTER TAX)</h5>
+            <div class="form-floating mb-3 mx-3 ">
+                <input type="number" class="form-control shadow border-0 " id="Sal" placeholder="name@example.com">
+                <label for="floatingInput">Salary & Earned Income/month</label>
+              </div>
+              <div class="form-floating mb-3 mx-3">
+                <input type="number" class="form-control shadow border-0" id="Inv" placeholder="name@example.com">
+                <label for="floatingInput">Investments & Savings/month</label>
+              </div>
+              <div class="form-floating mb-3 mx-3">
+                <input type="number" class="form-control shadow border-0" id="OInc" placeholder="name@example.com">
+                <label for="floatingInput">Other Income/month</label>
+              </div>
+  
+  
+       </div>
+  
+  
+  
+       <div style="text-align: center;" class="p-3 ">
+        <h5 class="bg-primary m-0">EXPENSES</h5>
+        <h5 style="background-color: lightblue; text-align: start;">Housing & Utilities :</h5>
+            <div class="form-floating mb-3 mx-3 ">
+                <input type="number" class="form-control shadow border-0 " id="Mortagage" placeholder="name@example.com">
+                <label for="floatingInput">Mortgage/month</label>
+              </div>
+              <div class="form-floating mb-3 mx-3">
+                <input type="number" class="form-control shadow border-0" id="Property" placeholder="name@example.com">
+                <label for="floatingInput">Property Tax/month</label>
+              </div>
+              <div class="form-floating mb-3 mx-3">
+                <input type="number" class="form-control shadow border-0" id="Insurance" placeholder="name@example.com">
+                <label for="floatingInput">Insurance/month</label>
+              </div>
+              <div class="form-floating mb-3 mx-3">
+                <input type="number" class="form-control shadow border-0" id="Utilities" placeholder="name@example.com">
+                <label for="floatingInput">Utilities/month</label>
+              </div>
+              <div class="form-floating mb-3 mx-3">
+                <input type="number" class="form-control shadow border-0" id="HomeM" placeholder="name@example.com">
+                <label for="floatingInput">Home Maintenance/month</label>
+              </div>
+              <h5 style="background-color: lightblue; text-align: start;">Transportation :</h5>
+              <div class="form-floating mb-3 mx-3 ">
+                  <input type="number" class="form-control shadow border-0 " id="Fuel" placeholder="name@example.com">
+                  <label for="floatingInput">Fuel/month</label>
+                </div>
+                <div class="form-floating mb-3 mx-3">
+                  <input type="number" class="form-control shadow border-0" id="Loan" placeholder="name@example.com">
+                  <label for="floatingInput">Auto Loan/month</label>
+                </div>
+                <div class="form-floating mb-3 mx-3">
+                  <input type="number" class="form-control shadow border-0" id="Ins" placeholder="name@example.com">
+                  <label for="floatingInput">Insurance/month</label>
+                </div>
+                <div class="form-floating mb-3 mx-3">
+                  <input type="number" class="form-control shadow border-0" id="Tolls" placeholder="name@example.com">
+                  <label for="floatingInput">Tolls & Parking/month</label>
+                </div>
+                <div class="form-floating mb-3 mx-3">
+                  <input type="number" class="form-control shadow border-0" id="AutoM" placeholder="name@example.com">
+                  <label for="floatingInput">Auto Maintenance/month</label>
+                </div>
+                <div class="form-floating mb-3 mx-3">
+                    <input type="number" class="form-control shadow border-0" id="Ocost" placeholder="name@example.com">
+                    <label for="floatingInput">Other Costs/month</label>
+                  </div>
+                  <h5 style="background-color: lightblue; text-align: start;">Education :</h5>
+                    <div class="form-floating mb-3 mx-3 ">
+                        <input type="number" class="form-control shadow border-0 " id="Fee" placeholder="name@example.com">
+                        <label for="floatingInput">Fee/month</label>
+                      </div>
+                      <div class="form-floating mb-3 mx-3">
+                        <input type="number" class="form-control shadow border-0" id="Tuition" placeholder="name@example.com">
+                        <label for="floatingInput">Tuition & Supplies/month</label>
+                      </div>
+                      <div class="form-floating mb-3 mx-3">
+                        <input type="number" class="form-control shadow border-0" id="Ospn" placeholder="name@example.com">
+                        <label for="floatingInput">Other Spending/month</label>
+                      </div>
+                  <h5 style="background-color: lightblue; text-align: start;">Living Expenses :</h5>
+                  <div class="form-floating mb-3 mx-3 ">
+                      <input type="number" class="form-control shadow border-0 " id="Food" placeholder="name@example.com">
+                      <label for="floatingInput">Food/month</label>
+                    </div>
+                    <div class="form-floating mb-3 mx-3">
+                      <input type="number" class="form-control shadow border-0" id="Household" placeholder="name@example.com">
+                      <label for="floatingInput">Household Supplies/month</label>
+                    </div>
+                    <div class="form-floating mb-3 mx-3">
+                      <input type="number" class="form-control shadow border-0" id="Clothing" placeholder="name@example.com">
+                      <label for="floatingInput">Clothing/month</label>
+                    </div>
+                    <div class="form-floating mb-3 mx-3">
+                      <input type="number" class="form-control shadow border-0" id="Meals" placeholder="name@example.com">
+                      <label for="floatingInput">Meals Out/month</label>
+                    </div>
+                    <div class="form-floating mb-3 mx-3">
+                      <input type="number" class="form-control shadow border-0" id="OL" placeholder="name@example.com">
+                      <label for="floatingInput">Other/month</label>
+                    </div>
+                    <h5 style="background-color: lightblue; text-align: start;">Healthcare :</h5>
+                    <div class="form-floating mb-3 mx-3 ">
+                        <input type="number" class="form-control shadow border-0 " id="Medical" placeholder="name@example.com">
+                        <label for="floatingInput">Medical Insurance/month</label>
+                      </div>
+                      <div class="form-floating mb-3 mx-3">
+                        <input type="number" class="form-control shadow border-0" id="Mspen" placeholder="name@example.com">
+                        <label for="floatingInput">Medical Spending/month</label>
+                      </div>
+                      <h5 style="background-color: lightblue; text-align: start;">Miscellaneous Expenses:</h5>
+                      <div class="form-floating mb-3 mx-3 ">
+                          <input type="number" class="form-control shadow border-0 " id="Hobbies" placeholder="name@example.com">
+                          <label for="floatingInput">Hobbies & Sports/month</label>
+                        </div>
+                        <div class="form-floating mb-3 mx-3">
+                          <input type="number" class="form-control shadow border-0" id="Entertainment" placeholder="name@example.com">
+                          <label for="floatingInput">Entertainment & Tickets/month</label>
+                        </div>
+                        <div class="form-floating mb-3 mx-3">
+                            <input type="number" class="form-control shadow border-0" id="Travel" placeholder="name@example.com">
+                            <label for="floatingInput">Travel & Vacation/month</label>
+                          </div>
+                          <div class="form-floating mb-3 mx-3">
+                            <input type="number" class="form-control shadow border-0" id="Gifts" placeholder="name@example.com">
+                            <label for="floatingInput">Gifts & Donations/month</label>
+                          </div>
+                          <div class="form-floating mb-3 mx-3">
+                            <input type="number" class="form-control shadow border-0" id="OM" placeholder="name@example.com">
+                            <label for="floatingInput">Other/month</label>
+                          </div>
+                          <h5 style="background-color: lightblue; text-align: start;">Other Expenses:</h5>
+                          <div class="form-floating mb-3 mx-3 ">
+                              <input type="number" class="form-control shadow border-0 " id="other" placeholder="name@example.com">
+                              <label for="floatingInput">per month</label>
+                            </div>
+                   
+        </div>
+  
+        <div>
+          <div class="d-grid gap-2">
+            <button onclick="cal()" class="btn btn-success" type="submit">CALCULATE</button>
+          </div>
+        </div>
+  
+        </div></div>
+      <div class="col">    
+                        
+
+                        <div>
+                            <h1 style="font-size: 50px;" class="mt-5"><b>What is a budget ?</b></h1>
+                           <p style="text-align: justify; width: 370px;" class="mt-3">
+                            A budget is an estimation of future revenues and expenses for a certain period. The budgeting process creates plans to make expenses or allocate resources. It can be made for an individual, project, business, government, or other organizations.
+                           </p>
+                           <div style="width: 500px;" class="mx-auto mt-5"><img style="width: 500px;" src="./vedio/virtual-4546_512.gif" alt=""></div>
+                              <ul>
+                                <h5><b>Summary :</b></h5>
+                                <li>A budget is an estimation of future revenues and expenses, which helps to plan for future expenses or allocation of resources for a certain period.</li>
+                                <li>A personal budget depends on the individual’s standard of living, age, lifestyle, personal preferences, and so on.</li>
+                                <li>A corporate budget depends on a series of assumptions and aligns with the firm’s business strategy and objective.</li>
+                               
+                              </ul>
+                              <div style="width: 500px;" class="mx-auto mt-5"><img style="width: 500px;" src="https://static.vecteezy.com/system/resources/thumbnails/002/027/440/small_2x/illustration-of-budget-or-financial-planning-calculator-safe-document-smartphone-diagram-chart-vector.jpg" alt=""></div>
+
+                              <h5><b>Understanding Budgets</b></h5>
+                              <p style="text-align: justify; width: 450px;">
+                                Based on the concept of limited resources, it is common for individuals and organizations to create budgets to allocate their incomes or capital efficiently. It is a process of creating financial plans for a specific period, which can be a month, a year, or the term of a project.
+                              </p>
+                              <p style="text-align: justify; width:450px;">
+                                Budgeting is important for individuals to achieve financial success, as well as for organizations to complete projects and operate successively.
+                              </p>
+                              <p style="text-align: justify; width: 450px;">
+                                Budgets can be either flexible or static. A static budget keeps constant without adjustments over the entire budgeting term. Personal budgets are usually static. Budgets depend on assumptions and estimation of future incomes.
+                              </p>
+                              <div style="width: 500px;" class="mx-auto mt-5"><img style="width: 500px;" src="./vedio/growth-2716_512.gif" alt=""></div>
+
+                        </div>
+
+
+      </div>
+     </div>
+
+
+      <div  id="data1">
+
+      </div>
+</body>
+
+</html>
