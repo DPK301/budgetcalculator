@@ -150,7 +150,7 @@ console.log(pliving);
               </tr>
               <tr>
                 
-                <td ><b>Net Icome</b>
+                <td ><b>Net Income</b>
                 <td style="color: green;" ><b>Rs ${net}</b></td>
                 <td style="color: green;"><b>Rs ${net*12}</b></td>
               </tr>
@@ -177,49 +177,49 @@ console.log(pliving);
               <td>Housing & Utilities :</td>
               <td><b>Rs ${house}</b></td>
               <td><b>Rs ${house*12}</b></td>
-              <td> ${phouse}% of income</td>
+              <td> ${phouse.toFixed(2)}% of income</td>
             </tr>
             <tr>
               
               <td>Transportation :</td>
               <td><b>Rs ${transport}</b></td>
               <td><b>Rs ${transport*12}</b></td>
-              <td>${ptransport}% of income</td>
+              <td>${ptransport.toFixed(2)}% of income</td>
             </tr>
             <tr>
               
               <td >Education :</td>
               <td><b>Rs ${Education}</b></td>
               <td><b>Rs ${Education*12}</b></td>
-              <td>${pEducation}% of income</td>
+              <td>${pEducation.toFixed(2)}% of income</td>
             </tr>
             <tr>
               
               <td >Living Expenses :</td>
               <td><b>Rs ${living}</b></td>
               <td><b>Rs ${living*12}</b></td>
-              <td>${pliving}% of income</td>
+              <td>${pliving.toFixed(2)}% of income</td>
             </tr>
             <tr>
               
               <td >Healthcare :</td>
               <td><b>Rs ${health}</b></td>
               <td><b>Rs ${health*12}</b></td>
-              <td>${phealth}% of income</td>
+              <td>${phealth.toFixed(2)}% of income</td>
             </tr>
             <tr>
               
               <td >Miscellaneous Expenses :</td>
               <td><b>Rs ${miscellaneous}</b></td>
               <td><b>Rs ${miscellaneous*12}</b></td>
-              <td>${pmiscellaneous}% of income</td>
+              <td>${pmiscellaneous.toFixed(2)}% of income</td>
             </tr>
             <tr>
               
               <td >Other Expenses :</td>
               <td><b>Rs ${other1}</b></td>
               <td><b>Rs ${other1*12}</b></td>
-              <td>${pother}% of income</td>
+              <td>${pother.toFixed(2)}% of income</td>
             </tr>
           </tbody>
         </table>
